@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "971334883123",
+    "project_id": "nelayan-app-b21f3",
+    "storage_bucket": "nelayan-app-b21f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971334883123:android:18f0c7f31a0dd4c1021046",
+        "android_client_info": {
+          "package_name": "com.github.nelayanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971334883123-ujcammdu5ipnitej7fhgepi6jmopjuj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxR0b-9_SGZKd4fGXykSwlZEk_63z1CfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971334883123-ujcammdu5ipnitej7fhgepi6jmopjuj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971334883123:android:eb9f78f68e6730c5021046",
+        "android_client_info": {
+          "package_name": "com.github.nelayanapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971334883123-ujcammdu5ipnitej7fhgepi6jmopjuj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxR0b-9_SGZKd4fGXykSwlZEk_63z1CfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971334883123-ujcammdu5ipnitej7fhgepi6jmopjuj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

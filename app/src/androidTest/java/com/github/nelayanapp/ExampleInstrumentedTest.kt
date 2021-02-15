@@ -1,4 +1,4 @@
-package id.siap.nelayanapp
+package com.github.nelayanapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

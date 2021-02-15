@@ -1,4 +1,4 @@
-package id.siap.nelayanapp
+package com.github.nelayanapp
 
 import org.junit.Test
 
