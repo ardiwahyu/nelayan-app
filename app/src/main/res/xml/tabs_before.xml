@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/ic_weather_2"
+        text="@string/cuaca"/>
+    <tab
+        drawable="@drawable/ic_koperasi"
+        text="@string/koperasi"/>
+</tabs>

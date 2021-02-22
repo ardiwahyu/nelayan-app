@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_weather"
+        android:title="Cuaca"
+        android:icon="@drawable/ic_weather_2"/>
+
+    <item
+        android:id="@+id/navigation_daftar"
+        android:title="Koperasi"
+        android:icon="@drawable/ic_koperasi"/>
+
+    <item
+        android:id="@+id/navigation_akun"
+        android:title="Akun"
+        android:icon="@drawable/ic_round_person_outline"/>
+</menu>
