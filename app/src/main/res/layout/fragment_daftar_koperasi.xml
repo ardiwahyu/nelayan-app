@@ -29,6 +29,31 @@
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="parent">
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginHorizontal="@dimen/default_padding"
+                app:cardBackgroundColor="@color/toastWarningBgColor"
+                app:cardCornerRadius="4dp"
+                android:elevation="@dimen/default_margin"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:text="Anda belum terdaftar sebagai anggota koperasi. Pilihlah salah satu koperasi berikut untuk melakukan pendaftaran"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.appcompat.widget.LinearLayoutCompat>
 </layout>

@@ -9,6 +9,7 @@ import com.bumptech.glide.load.resource.bitmap.*
 import com.bumptech.glide.request.RequestOptions
 import com.github.nelayanapp.R
 import com.github.nelayanapp.databinding.ActivityLoginBinding
+import com.github.nelayanapp.ui.daftar.DaftarActivity
 import com.github.nelayanapp.ui.main.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_login.*
@@ -38,6 +39,10 @@ class LoginActivity : AppCompatActivity() {
 
         binding.btnLogin.setOnClickListener {
             startActivity(intentFor<MainActivity>())
+        }
+
+        binding.tvDaftar.setOnClickListener {
+            startActivity(intentFor<DaftarActivity>())
         }
     }
 }

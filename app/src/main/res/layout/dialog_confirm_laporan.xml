@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_medium_rounded"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/default_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi Pendaftaran"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="@dimen/default_padding" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"
+                android:layout_marginTop="@dimen/default_padding" />
+
+            <TextView
+                android:id="@+id/tvKonfirmasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pastikan nomor hp yang Anda masukkan benar. Sistem akan mengirimkan kode verifikasi ke nomor tersebut"
+                android:textColor="@color/black"
+                android:background="?attr/selectableItemBackground"
+                android:paddingHorizontal="@dimen/default_padding"
+                android:paddingVertical="@dimen/default_margin" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:paddingHorizontal="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_margin">
+
+                <TextView
+                    android:id="@+id/btnEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="@dimen/default_padding"
+                    android:layout_marginHorizontal="@dimen/default_margin"
+                    android:paddingVertical="@dimen/default_margin"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:text="Lanjutkan"
+                    android:textAllCaps="false"
+                    android:background="@drawable/bg_primary_dark_full_rounded"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="@dimen/default_padding"
+                    android:paddingVertical="@dimen/default_margin"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+</layout>
